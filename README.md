@@ -1,4 +1,4 @@
 # LeetCode
 
 ## Java
-[7. Reverse Integer](./src/main/java/com/meganpaffrath/Problem_7.java)
+[7. Reverse Integer](.Problems/7ReverseInteger/ReverseInteger.java)
