@@ -1,21 +1,21 @@
 package com.meganpaffrath;
 
-/*
-Given a 32-bit signed integer, reverse digits of an integer.
-
-Example 1:
-    Input: 123
-    Output: 321
-Example 2:
-    Input: -123
-    Output: -321
-Example 3:
-    Input: 120
-    Output: 21
-Note:
-Assume we are dealing with an environment which could only store integers within
-the 32-bit signed integer range: [−2^31,  2^31 − 1]. For the purpose of this problem,
-assume that your function returns 0 when the reversed integer overflows.
+/**
+ * Given a 32-bit signed integer, reverse digits of an integer.
+ *
+ * Example 1:
+ *     Input: 123
+ *     Output: 321
+ * Example 2:
+ *     Input: -123
+ *     Output: -321
+ * Example 3:
+ *     Input: 120
+ *     Output: 21
+ * Note:
+ * Assume we are dealing with an environment which could only store integers within
+ * the 32-bit signed integer range: [−2^31,  2^31 − 1]. For the purpose of this problem,
+ * assume that your function returns 0 when the reversed integer overflows.
  */
 
 public class Prob7_ReverseInteger {
@@ -38,26 +38,25 @@ public class Prob7_ReverseInteger {
     }
 }
 
-/*
-public class Main {
-
-    public static void main(String[] args) {
-        Prob7_ReverseInteger problem = new Prob7_ReverseInteger();
-        int reversed123 = problem.reverse(123);
-        System.out.println("123 reversed: " + reversed123);
-        int reversedNegative123 = problem.reverse(-123);
-        System.out.println("-123 reversed: " + reversedNegative123);
-        int reversed120 = problem.reverse(120);
-        System.out.println("120 reversed: " + reversed120);
-    }
-
-}
-
---------------------------------------
-
-Output:
-123 reversed: 321
--123 reversed: -321
-120 reversed: 21
-
+/**
+ * public class Main {
+ *
+ *     public static void main(String[] args) {
+ *         Prob7_ReverseInteger problem = new Prob7_ReverseInteger();
+ *         int reversed123 = problem.reverse(123);
+ *         System.out.println("123 reversed: " + reversed123);
+ *         int reversedNegative123 = problem.reverse(-123);
+ *         System.out.println("-123 reversed: " + reversedNegative123);
+ *         int reversed120 = problem.reverse(120);
+ *         System.out.println("120 reversed: " + reversed120);
+ *     }
+ *
+ * }
+ *
+ * --------------------------------------
+ *
+ * Output:
+ * 123 reversed: 321
+ * -123 reversed: -321
+ * 120 reversed: 21
  */
