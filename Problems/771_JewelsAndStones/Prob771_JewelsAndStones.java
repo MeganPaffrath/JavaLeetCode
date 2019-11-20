@@ -22,7 +22,7 @@ S and J will consist of letters and have length at most 50.
 The characters in J are distinct.
  */
 
-public class JewelsAndStones {
+public class Prob771_JewelsAndStones {
 
     public int numJewelsInStones(String J, String S) {
         int count = 0;
@@ -38,3 +38,25 @@ public class JewelsAndStones {
         return count;
     }
 }
+
+/*
+public class Main {
+
+    public static void main(String[] args) {
+        Prob771_JewelsAndStones problemJS = new Prob771_JewelsAndStones();
+
+        int retVal1 = problemJS.numJewelsInStones("z", "ZZz");
+        System.out.println(retVal1);
+
+        int retVal2 = problemJS.numJewelsInStones("zAc", "ZZaaAz");
+        System.out.println(retVal2);
+    }
+}
+
+--------------------------------------
+
+Output:
+1
+2
+
+ */
