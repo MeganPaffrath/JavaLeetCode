@@ -82,4 +82,16 @@ public class Prob933_NumberOfRecentCalls {
  *         param_1 = obj.ping(3002);
  *         System.out.println("Ping: t = 3002, ping count: " + param_1);
  *     }
+ *
+ * --------------------------------------
+ *
+ * Output:
+ *
+ * Ping: t = 1, ping count: 1
+ * Ping: t = 101, ping count: 2
+ * Ping: t = 2000, ping count: 3
+ * Ping: t = 3000, ping count: 4
+ * Ping: t = 3001, ping count: 5
+ * Ping: t = 3002, ping count: 5
+ *
  */
