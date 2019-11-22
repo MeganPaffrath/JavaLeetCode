@@ -1,8 +1,8 @@
 package com.meganpaffrath;
 
 /**
- * Runtime: 224 ms, faster than 5.03% of Java online submissions for Longest Substring Without Repeating Characters.
- * Memory Usage: 39.5 MB, less than 14.63% of Java online submissions for Longest Substring Without Repeating Characters.
+ * Runtime: 226 ms, faster than 5.03% of Java online submissions for Longest Substring Without Repeating Characters.
+ * Memory Usage: 38.5 MB, less than 44.82% of Java online submissions for Longest Substring Without Repeating Characters.
  */
 
 /**
@@ -36,14 +36,12 @@ public class Prob3_LongestSubstringWithoutRepeatingCharacters {
         String longestString = String.valueOf(s.charAt(0));
 
 
-        for (int i = 1; i < s.length(); i++) { // full string
-            for (int j = i; j < s.length(); j ++) { // sub check
+        for (int i = 1; i < s.length(); i++) {
+            for (int j = i; j < s.length(); j ++) {
                 boolean repeated = false;
-                for (int k = 0; k < currString.length(); k++) { // curr compare
-                    if (s.charAt(j) == currString.charAt(k)) {
-                        repeated = true;
-                        break;
-                    }
+
+                if (currString.contains(String.valueOf(s.charAt(j))) ) {
+                    repeated = true;
                 }
                 if(!repeated) {
                     currString += String.valueOf(s.charAt(j));
@@ -59,3 +57,44 @@ public class Prob3_LongestSubstringWithoutRepeatingCharacters {
         return longestString.length();
     }
 }
+
+
+
+
+/**
+ * Runtime: 224 ms, faster than 5.03% of Java online submissions for Longest Substring Without Repeating Characters.
+ * Memory Usage: 39.5 MB, less than 14.63% of Java online submissions for Longest Substring Without Repeating Characters.
+ */
+
+//public class Prob3_LongestSubstringWithoutRepeatingCharacters {
+//    public int lengthOfLongestSubstring(String s) {
+//        if (s.length() == 0)
+//            return 0;
+//
+//        String currString = String.valueOf(s.charAt(0));
+//        String longestString = String.valueOf(s.charAt(0));
+//
+//
+//        for (int i = 1; i < s.length(); i++) { // full string
+//            for (int j = i; j < s.length(); j ++) { // sub check
+//                boolean repeated = false;
+//                for (int k = 0; k < currString.length(); k++) { // curr compare
+//                    if (s.charAt(j) == currString.charAt(k)) {
+//                        repeated = true;
+//                        break;
+//                    }
+//                }
+//                if(!repeated) {
+//                    currString += String.valueOf(s.charAt(j));
+//                    if (currString.length() > longestString.length()) {
+//                        longestString = currString;
+//                    }
+//                } else {
+//                    break;
+//                }
+//            }
+//            currString = String.valueOf(s.charAt(i));
+//        }
+//        return longestString.length();
+//    }
+//}
