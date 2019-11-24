@@ -7,5 +7,6 @@
 - [14. Longest Common Prefix](Problems/14_LongestCommonPrefix/Prob14_LongestCommonPrefix.java)
 - [21. Merge Two Sorted Lists](Problems/21_MergeTwoSortedLists/Prob21_MergeTwoSortedLists.java)
 - [26. Remove Duplicates From Sorted Array](Problems/26_RemoveDuplicatesFromSortedArray/Prob26_RemoveDuplicatesFromSortedArray.java)
+- [35. Search Insert Position](Problems/35_SearchInsertPosition/Prob35_SearchInsertPosition.java)
 - [771. Jewels And Stones](Problems/771_JewelsAndStone/Prob771_JewelsAndStones.java)
 - [993. Number of Recent Calls](Problems/933_NumberOfRecentCalls/Prob933_NumberOfRecentCalls.java)
