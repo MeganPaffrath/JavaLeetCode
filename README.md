@@ -1,6 +1,11 @@
-# LeetCode
+# LeetCode Solutions
 
-## Java
+- [1. Two Sum](problems/1-two-sum.md)
+- [15. 3Sum](problems/15-3-sum.md)
+- [167. Two Sum II](problems/167-two-Sum-II.md)
+
+## OLD Java
+
 - [3. Longest Substring Without Repeating Characters](Problems/3_LongestSubstringWithoutRepeatingCharacters/Prob3_LongestSubstringWithoutRepeatingCharacters.java)
 - [7. Reverse Integer](Problems/7_ReverseInteger/Prob7_ReverseInteger.java)
 - [9. Palindrome Number](Problems/9_PalindromeNumber/Prob9_PalindromeNumber.java)
