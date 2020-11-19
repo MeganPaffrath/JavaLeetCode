@@ -2,6 +2,7 @@
 
 - [1. Two Sum](problems/1-two-sum.md)
 - [15. 3Sum](problems/15-3-sum.md)
+- [66. Plus One](problems/66-plus-one.md)
 - [167. Two Sum II](problems/167-two-Sum-II.md)
 
 ## OLD Java
