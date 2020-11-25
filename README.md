@@ -1,10 +1,17 @@
 # LeetCode Solutions
 
+## Data Structures & Alg
+
 - [1. Two Sum](problems/1-two-sum.md)
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
 - [66. Plus One](problems/66-plus-one.md)
 - [167. Two Sum II](problems/167-two-Sum-II.md)
+
+## SQL
+
+- [175. Combine Two Tables](problems/175-combine-two-tables.md)
+- [181. Employees Earning More Than Their Managers](problems/181-employees-earning-more-than-their-managers.md)
 
 ## OLD Java
 
