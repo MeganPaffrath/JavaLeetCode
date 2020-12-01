@@ -6,6 +6,7 @@
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
 - [66. Plus One](problems/66-plus-one.md)
+- [104. Maximum Depth of Binary Tree](problems/104-max-depth-binary-tree.md)
 - [167. Two Sum II](problems/167-two-Sum-II.md)
 
 ## SQL
