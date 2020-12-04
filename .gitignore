@@ -14,3 +14,7 @@
 # Maven
 log/
 target/
+
+# Personal
+study.txt
+time-by-type.md
