@@ -1,5 +1,7 @@
 # LeetCode Solutions
 
+Reviewing old code pairs well with morning coffee/tea ;)
+
 ## Data Structures & Alg
 
 - [1. Two Sum](problems/1-two-sum.md)
@@ -15,8 +17,9 @@
 - [243. Shortest Word Distance](problems/243-shortest-word-distance.md) : Array iteration
 - [344. Reverse String](problems/344-reverse-string.md) : Array manipulation
 - [382. Linked List Random Note](problems/382-linked-list-random-note.md) : Linked List
-- [605. Can Plant Flowers](problems/605-can-plant-flowers.md) : Array, basic iteration
+- [605. Can Plant Flowers](problems/605-can-plant-flowers.md) : Array, DeMorgan's Law
 - [897. Increasing Order Search Tree](problems/897-increasing-order-search-tree.md) : Binary Tree (inorder traversal)
+- [977. Find the Town Judge](problems/997-find-town-judge.md) : Arrays & bad use of hashmap
 - [1492. The kth Factor of n](problems/1492-the-kth-factor-of-n.md) : Math
 
 ## SQL
@@ -37,12 +40,22 @@
 
 - Hashmaps
 
-```Java
-HashMap<String, Integer> myMap = new HashMap<String, Integer>();
-myMap.containsKey("aKey"); // boolean
-myMap.put("Key", 24); // places key and value
+  ```Java
+  HashMap<String, Integer> myMap = new HashMap<String, Integer>();
+  myMap.containsKey("aKey"); // boolean
+  myMap.put("Key", 24); // places key and value
 
-```
+  // iterate by key values
+  for (String key : map.keySet()) {
+
+  }
+
+  // iterate by value only
+  for (Integer value : map.values() ) {
+
+  }
+
+  ```
 
 ## OLD Java
 
