@@ -15,6 +15,7 @@
 - [243. Shortest Word Distance](problems/243-shortest-word-distance.md) : Array iteration
 - [344. Reverse String](problems/344-reverse-string.md) : Array manipulation
 - [382. Linked List Random Note](problems/382-linked-list-random-note.md) : Linked List
+- [605. Can Plant Flowers](problems/605-can-plant-flowers.md) : Array, basic iteration
 - [897. Increasing Order Search Tree](problems/897-increasing-order-search-tree.md) : Binary Tree (inorder traversal)
 - [1492. The kth Factor of n](problems/1492-the-kth-factor-of-n.md) : Math
 
