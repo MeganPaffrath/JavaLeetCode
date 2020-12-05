@@ -5,15 +5,18 @@
 - [1. Two Sum](problems/1-two-sum.md)
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
+- [42. Trapping Rain Water](problems/42-trapping-rain-water.md) : Array, Dynamic Programming
 - [66. Plus One](problems/66-plus-one.md)
 - [104. Maximum Depth of Binary Tree](problems/104-max-depth-binary-tree.md) : Binary Tree
 - [116. Populating next right pointers in each node](problems/116-propulating-next-pointers-in-each-node.md) : Binary Tree
 - [125. Valid Palindrome](problems/125-valid-palindrome.md) : String manipulation
 - [167. Two Sum II](problems/167-two-Sum-II.md)
 - [200. Number of Islands](problems/200-number-of-islands.md) : 2d Array, Recursion
+- [243. Shortest Word Distance](problems/243-shortest-word-distance.md) : Array iteration
 - [344. Reverse String](problems/344-reverse-string.md) : Array manipulation
 - [382. Linked List Random Note](problems/382-linked-list-random-note.md) : Linked List
 - [897. Increasing Order Search Tree](problems/897-increasing-order-search-tree.md) : Binary Tree (inorder traversal)
+- [1492. The kth Factor of n](problems/1492-the-kth-factor-of-n.md) : Math
 
 ## SQL
 
@@ -30,6 +33,15 @@
   Character.toLowerCase('A'); // returns 'a'
 
   ```
+
+- Hashmaps
+
+```Java
+HashMap<String, Integer> myMap = new HashMap<String, Integer>();
+myMap.containsKey("aKey"); // boolean
+myMap.put("Key", 24); // places key and value
+
+```
 
 ## OLD Java
 
