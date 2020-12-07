@@ -11,6 +11,7 @@ Reviewing old code pairs well with morning coffee/tea ;)
 - [66. Plus One](problems/66-plus-one.md)
 - [104. Maximum Depth of Binary Tree](problems/104-max-depth-binary-tree.md) : Binary Tree
 - [116. Populating next right pointers in each node](problems/116-propulating-next-pointers-in-each-node.md) : Binary Tree
+- [117 Populating Next Right Pointers in Each Node II](problems/117-populating-next-right-pointers-in-each-node.md) : Binary tree, queue, bfs
 - [125. Valid Palindrome](problems/125-valid-palindrome.md) : String manipulation
 - [167. Two Sum II](problems/167-two-Sum-II.md)
 - [200. Number of Islands](problems/200-number-of-islands.md) : 2d Array, Recursion
