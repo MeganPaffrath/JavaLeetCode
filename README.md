@@ -1,14 +1,15 @@
-# LeetCode Solutions
+# Coding Problems
 
 Reviewing old code pairs well with morning coffee/tea ;)
 
-## Data Structures & Alg
+## Leetcode - DS & Alg
 
 - [1. Two Sum](problems/1-two-sum.md)
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
 - [42. Trapping Rain Water](problems/42-trapping-rain-water.md) : Array, Dynamic Programming
 - [66. Plus One](problems/66-plus-one.md)
+- [102. Binary Tree Level Order Traversal](problems/102-binary-tree-level-order-traversal.md)
 - [104. Maximum Depth of Binary Tree](problems/104-max-depth-binary-tree.md) : Binary Tree
 - [116. Populating next right pointers in each node](problems/116-propulating-next-pointers-in-each-node.md) : Binary Tree
 - [117 Populating Next Right Pointers in Each Node II](problems/117-populating-next-right-pointers-in-each-node.md) : Binary tree, queue, bfs
