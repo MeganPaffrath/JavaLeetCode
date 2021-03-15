@@ -36,6 +36,75 @@ Constraints:
 - nums is guaranteed to be rotated at some pivot.
 - -104 <= target <= 104
 
+
+# Solution: O(nlogn)
+- binary search algorithm
+- Time: O(nlogn)
+```Java
+class Solution {
+    public int search(int[] nums, int target) {
+        int pivot = pivotPoint(nums);
+        
+        System.out.println("Pivot: " + pivot);
+        
+        return getPos(nums, target, pivot);
+        
+    }
+    
+    public int pivotPoint(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1; 
+        int mid;
+        
+        int min = Integer.MAX_VALUE;
+        int minI = Integer.MAX_VALUE;
+        
+        while (left <= right) {
+            mid = left + (right - left) / 2;
+            
+            if (min > nums[mid]) {
+                min = nums[mid];
+                minI = mid;
+            }
+            
+            if (nums[mid] > nums[right]) { // search right
+                left = mid + 1;
+            } else if (nums[left] < nums[mid] && nums[left] < min) { // search left
+                return left;
+            } else { // search right
+                right = mid - 1;
+            }
+        }
+        
+        return minI;
+    }
+    
+    public int getPos(int[] nums, int target, int pivot) {
+        int left = 0;
+        int right = nums.length - 1;
+        int mid = pivot;
+        
+        while (left <= right) {
+            if (target == nums[mid]) {
+                return mid;
+            }
+            
+            // if right of mid
+            if (target > nums[mid] && target <= nums[right]) {
+                left = mid + 1;
+            } else { // if left of mid
+                right = mid - 1;
+            }
+
+            // set mid for next iteration
+            mid = left + (right - left) / 2;
+        }
+        
+        return -1;
+    }
+}
+```
+
 # Solution: O(n)
 - Time: O(n)
 ```Java
