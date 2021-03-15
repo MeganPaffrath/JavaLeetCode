@@ -8,6 +8,7 @@ Reviewing old code pairs well with morning coffee/tea ;)
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
 - [42. Trapping Rain Water](problems/42-trapping-rain-water.md) : Array, Dynamic Programming
+- [53. Maximum Subarray](problems/53-maximum-subarray.md) : Array, Kadane's Algorithm
 - [66. Plus One](problems/66-plus-one.md)
 - [102. Binary Tree Level Order Traversal](problems/102-binary-tree-level-order-traversal.md) : Tree traversal
 - [104. Maximum Depth of Binary Tree](problems/104-max-depth-binary-tree.md) : Binary Tree
@@ -59,3 +60,8 @@ Reviewing old code pairs well with morning coffee/tea ;)
   }
 
   ```
+
+
+# Solutions to improve upon:
+- 53: maximum subarray
+  - get to time: O(nlogn)
