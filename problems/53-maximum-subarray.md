@@ -34,14 +34,8 @@ Constraints:
 
 Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
-# Better Solution
-- Kadane's Algorithm
-- Space: O(1)
-- Time: O(NlogN)
-```Java
-```
-
 # Okay Solution
+- Kadane's Algorithm
 - Space: O(1)
 - Time: O(N)
 ```Java

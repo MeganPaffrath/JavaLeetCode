@@ -7,6 +7,7 @@ Reviewing old code pairs well with morning coffee/tea ;)
 - [1. Two Sum](problems/1-two-sum.md)
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
+- [33. Search in Rotated Sorted Array](problems/33-search-in-rotated-sorted-array.md) : Binary Search
 - [42. Trapping Rain Water](problems/42-trapping-rain-water.md) : Array, Dynamic Programming
 - [53. Maximum Subarray](problems/53-maximum-subarray.md) : Array, Kadane's Algorithm
 - [66. Plus One](problems/66-plus-one.md)
