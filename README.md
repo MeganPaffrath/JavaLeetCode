@@ -7,6 +7,7 @@ Reviewing old code pairs well with morning coffee/tea ;)
 - [1. Two Sum](problems/1-two-sum.md)
 - [15. 3Sum](problems/15-3-sum.md)
 - [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.md)
+- [23. Merge k Sorted Lists](problems/23-merge-k-sorted-lists.md) : Linked list, min heap
 - [33. Search in Rotated Sorted Array](problems/33-search-in-rotated-sorted-array.md) : Binary Search
 - [42. Trapping Rain Water](problems/42-trapping-rain-water.md) : Array, Dynamic Programming
 - [53. Maximum Subarray](problems/53-maximum-subarray.md) : Array, Kadane's Algorithm
@@ -22,6 +23,7 @@ Reviewing old code pairs well with morning coffee/tea ;)
 - [243. Shortest Word Distance](problems/243-shortest-word-distance.md) : Array iteration
 - [344. Reverse String](problems/344-reverse-string.md) : Array manipulation
 - [382. Linked List Random Note](problems/382-linked-list-random-note.md) : Linked List
+- [543. Diameter of Binary Tree](problems/543-diameter-of-binary-tree.md) : Binary tree, recursion
 - [605. Can Plant Flowers](problems/605-can-plant-flowers.md) : Array, DeMorgan's Law
 - [897. Increasing Order Search Tree](problems/897-increasing-order-search-tree.md) : Binary Tree (inorder traversal)
 - [977. Find the Town Judge](problems/997-find-town-judge.md) : Arrays & bad use of hashmap
